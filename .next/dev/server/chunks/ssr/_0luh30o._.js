@@ -15,6 +15,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const metadata = {
     metadataBase: new URL("https://example.com"),
+    applicationName: "GPT-5.5",
+    authors: [
+        {
+            name: "GPT-5.5"
+        }
+    ],
+    creator: "GPT-5.5",
+    publisher: "GPT-5.5",
+    category: "technology",
     title: {
         default: "Introducing GPT-5.5 | Real-world AI for Work",
         template: "%s | GPT-5.5"
@@ -27,10 +36,19 @@ const metadata = {
         "workflow automation",
         "SaaS AI"
     ],
+    alternates: {
+        canonical: "/"
+    },
+    referrer: "origin-when-cross-origin",
+    formatDetection: {
+        email: false,
+        address: false,
+        telephone: false
+    },
     openGraph: {
         title: "Introducing GPT-5.5",
         description: "A modern AI system built for reasoning, planning, coding, research, and real-world productivity.",
-        url: "https://example.com",
+        url: "/",
         siteName: "GPT-5.5",
         images: [
             {
@@ -53,7 +71,14 @@ const metadata = {
     },
     robots: {
         index: true,
-        follow: true
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+            "max-video-preview": -1
+        }
     }
 };
 const viewport = {
@@ -69,12 +94,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 62,
+            lineNumber: 83,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 61,
+        lineNumber: 82,
         columnNumber: 5
     }, this);
 }

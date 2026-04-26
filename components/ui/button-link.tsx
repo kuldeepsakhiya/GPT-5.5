@@ -20,7 +20,7 @@ export function ButtonLink({
 
   return (
     <a
-      className={`inline-flex min-h-12 items-center justify-center rounded-lg px-5 text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 ${variants[variant]} ${className}`}
+      className={`inline-flex min-h-12 items-center justify-center rounded-lg px-5 text-sm font-semibold leading-none transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 sm:px-6 ${variants[variant]} ${className}`}
       {...props}
     >
       {children}

@@ -42,32 +42,36 @@ const features = [
 
 export function Features() {
   return (
-    <section id="features" className="bg-white py-20 sm:py-28">
+    <section id="features" className="scroll-mt-28 bg-white py-16 sm:py-24 lg:py-28">
       <Container>
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase text-ocean">
+          <p className="text-sm font-semibold uppercase leading-5 text-ocean">
             Core strengths
           </p>
-          <h2 className="mt-4 text-4xl font-semibold leading-tight text-ink sm:text-5xl">
+          <h2 className="mt-4 text-3xl font-semibold leading-tight text-ink sm:text-4xl lg:text-5xl">
             Built for the messy middle of real work.
           </h2>
-          <p className="mt-5 text-lg leading-8 text-ink/62">
+          <p className="mt-5 text-base leading-7 text-ink/62 sm:text-lg sm:leading-8">
             GPT-5.5 is designed for tasks where context, judgment, and reliable
             execution matter as much as raw generation.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-6">
           {features.map((feature) => (
             <article
               key={feature.title}
-              className="rounded-lg border border-ink/10 bg-paper/65 p-6 transition hover:border-ocean/30 hover:bg-white"
+              className="rounded-lg border border-ink/10 bg-paper/65 p-6 transition hover:border-ocean/30 hover:bg-white sm:p-7"
             >
-              <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-ink text-white">
+              <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-ink text-white sm:mb-6">
                 <FeatureIcon name={feature.icon} />
               </div>
-              <h3 className="text-xl font-semibold text-ink">{feature.title}</h3>
-              <p className="mt-3 leading-7 text-ink/62">{feature.description}</p>
+              <h3 className="text-xl font-semibold leading-snug text-ink">
+                {feature.title}
+              </h3>
+              <p className="mt-3 text-base leading-7 text-ink/62">
+                {feature.description}
+              </p>
             </article>
           ))}
         </div>

@@ -3,6 +3,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://example.com"),
+  applicationName: "GPT-5.5",
+  authors: [{ name: "GPT-5.5" }],
+  creator: "GPT-5.5",
+  publisher: "GPT-5.5",
+  category: "technology",
   title: {
     default: "Introducing GPT-5.5 | Real-world AI for Work",
     template: "%s | GPT-5.5"
@@ -16,11 +21,20 @@ export const metadata: Metadata = {
     "workflow automation",
     "SaaS AI"
   ],
+  alternates: {
+    canonical: "/"
+  },
+  referrer: "origin-when-cross-origin",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false
+  },
   openGraph: {
     title: "Introducing GPT-5.5",
     description:
       "A modern AI system built for reasoning, planning, coding, research, and real-world productivity.",
-    url: "https://example.com",
+    url: "/",
     siteName: "GPT-5.5",
     images: [
       {
@@ -42,7 +56,14 @@ export const metadata: Metadata = {
   },
   robots: {
     index: true,
-    follow: true
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    }
   }
 };
 
