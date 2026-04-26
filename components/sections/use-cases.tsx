@@ -1,27 +1,32 @@
+import { UseCaseIcon } from "@/components/icons/site-icons";
 import { Container } from "@/components/ui/container";
 
 const audiences = [
   {
+    icon: "developers",
     title: "Developers",
     description:
       "Move through system design, implementation, testing, and review with a model that can hold the whole task in view."
   },
   {
+    icon: "businesses",
     title: "Businesses",
     description:
       "Turn operational knowledge into repeatable workflows for support, finance, sales, and internal teams."
   },
   {
+    icon: "researchers",
     title: "Researchers",
     description:
       "Explore literature, extract structure from dense material, and compare findings across sources."
   },
   {
+    icon: "productivity",
     title: "Productivity users",
     description:
       "Draft, plan, summarize, and organize work without losing the nuance of your intent."
   }
-];
+] as const;
 
 export function UseCases() {
   return (
@@ -43,7 +48,12 @@ export function UseCases() {
                 key={audience.title}
                 className="group rounded-lg border border-ink/10 bg-white/78 p-6 shadow-[0_20px_60px_rgba(17,17,17,0.07)] backdrop-blur transition hover:-translate-y-1 hover:border-copper/25 hover:bg-white sm:p-7"
               >
-                <div className="mb-8 h-px w-12 bg-copper/40 transition group-hover:w-20" />
+                <div className="mb-8 flex items-center justify-between gap-4">
+                  <div className="h-px w-12 bg-copper/40 transition group-hover:w-20" />
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-ink/10 bg-paper text-copper">
+                    <UseCaseIcon name={audience.icon} />
+                  </div>
+                </div>
                 <h3 className="text-xl font-semibold leading-snug text-ink sm:text-2xl">
                   {audience.title}
                 </h3>

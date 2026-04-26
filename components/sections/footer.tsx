@@ -1,3 +1,4 @@
+import { BrandMark } from "@/components/icons/site-icons";
 import { Container } from "@/components/ui/container";
 
 const footerSections = [
@@ -43,8 +44,8 @@ export function Footer() {
             className="flex items-center gap-3 text-base font-semibold text-ink transition hover:text-ocean"
             aria-label="GPT-5.5 home"
           >
-            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-ink text-sm font-semibold leading-none text-white">
-              G
+            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-ink text-white">
+              <BrandMark />
             </span>
             <span>GPT-5.5</span>
           </a>

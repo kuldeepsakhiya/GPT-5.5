@@ -1,5 +1,6 @@
 import { ButtonLink } from "@/components/ui/button-link";
 import { Container } from "@/components/ui/container";
+import { ArrowRightIcon, BrandMark } from "@/components/icons/site-icons";
 
 const navLinks = [
   { label: "Features", href: "#features" },
@@ -17,8 +18,8 @@ export function Navbar() {
           className="flex shrink-0 items-center gap-3 text-base font-semibold text-ink transition hover:text-ocean"
           aria-label="GPT-5.5 home"
         >
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-ink text-sm font-semibold leading-none text-white shadow-[0_10px_30px_rgba(17,17,17,0.16)]">
-            G
+          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-ink text-white shadow-[0_10px_30px_rgba(17,17,17,0.16)]">
+            <BrandMark />
           </span>
           <span>GPT-5.5</span>
         </a>
@@ -40,7 +41,8 @@ export function Navbar() {
 
         <div className="hidden shrink-0 sm:block">
           <ButtonLink href="#cta" className="min-h-10 px-4 sm:px-5">
-            Get Started
+            <span>Get Started</span>
+            <ArrowRightIcon />
           </ButtonLink>
         </div>
       </Container>
