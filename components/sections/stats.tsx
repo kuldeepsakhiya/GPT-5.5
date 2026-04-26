@@ -1,49 +1,69 @@
-import { Container } from "@/components/ui/container";
-
 const stats = [
-  {
-    value: "94%",
-    label: "Instruction accuracy on complex work simulations"
-  },
-  {
-    value: "2.8x",
-    label: "Faster iteration across coding and research tasks"
-  },
-  {
-    value: "+41%",
-    label: "Higher completion rate on multi-step workflows"
-  }
-];
+    {
+      value: "95%",
+      label: "Accuracy",
+      desc: "High precision across coding, reasoning, and real-world tasks",
+    },
+    {
+      value: "2x",
+      label: "Faster Workflows",
+      desc: "Accelerate development and research with intelligent automation",
+    },
+    {
+      value: "10k+",
+      label: "Tasks Completed",
+      desc: "Successfully handling complex multi-step processes daily",
+    },
+    {
+      value: "99.9%",
+      label: "Reliability",
+      desc: "Consistent performance across diverse use cases",
+    },
+  ];
 
 export function Stats() {
   return (
-    <section id="benchmarks" className="scroll-mt-28 bg-[linear-gradient(135deg,#111111_0%,#172222_52%,#1d6f86_100%)] py-16 text-white sm:py-20 lg:py-24">
-      <Container>
-        <h2 className="sr-only">GPT-5.5 benchmark results</h2>
-        <div className="mb-10 max-w-2xl sm:mb-12">
-          <p className="text-sm font-semibold uppercase leading-5 text-white/56">
-            Measured progress
-          </p>
-          <p className="mt-3 text-2xl font-medium leading-tight text-white sm:text-3xl">
-            Better results where long context, judgment, and execution meet.
+    <section className="bg-white py-24">
+      <div className="max-w-6xl mx-auto px-6">
+        
+        {/* Section Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gray-900">
+            Built for performance at scale
+          </h2>
+          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+            GPT-5.5 delivers measurable improvements in speed, accuracy, and reliability.
           </p>
         </div>
-        <div className="grid gap-4 sm:grid-cols-3 sm:gap-5 lg:gap-6">
-          {stats.map((stat) => (
-            <article
-              key={stat.value}
-              className="rounded-lg border border-white/12 bg-white/[0.07] p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur transition-all duration-300 ease-out hover:-translate-y-1 hover:border-white/20 hover:bg-white/[0.09] hover:shadow-[0_24px_70px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.1)] sm:p-7 lg:p-8"
+
+        {/* Stats Grid */}
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+          {stats.map((stat, index) => (
+            <div
+              key={index}
+              className="text-center group"
             >
-              <p className="text-5xl font-semibold leading-none sm:text-6xl lg:text-7xl">
+              {/* Big Number */}
+              <div className="text-4xl md:text-5xl font-bold text-gray-900">
                 {stat.value}
-              </p>
-              <p className="mt-5 max-w-xs text-sm leading-6 text-white/66 sm:text-base sm:leading-7">
+              </div>
+
+              {/* Label */}
+              <div className="mt-2 text-lg font-semibold text-gray-800">
                 {stat.label}
+              </div>
+
+              {/* Description */}
+              <p className="mt-2 text-sm text-gray-600 max-w-xs mx-auto">
+                {stat.desc}
               </p>
-            </article>
+
+              {/* Underline hover effect */}
+              <div className="mt-4 h-1 w-10 mx-auto bg-gray-300 group-hover:w-20 group-hover:bg-black transition-all duration-300" />
+            </div>
           ))}
         </div>
-      </Container>
+      </div>
     </section>
   );
 }
