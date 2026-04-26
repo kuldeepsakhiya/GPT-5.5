@@ -63,10 +63,10 @@ export function Features() {
           {features.map((feature, index) => (
             <article
               key={feature.title}
-              className={`rounded-lg border p-6 transition hover:-translate-y-1 hover:border-ocean/30 sm:p-7 ${
+              className={`rounded-lg border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:border-ocean/30 sm:p-7 ${
                 index === 0
-                  ? "border-ink/10 bg-ink text-white shadow-[0_24px_70px_rgba(17,17,17,0.16)] sm:col-span-2 lg:col-span-1"
-                  : "border-ink/10 bg-[linear-gradient(180deg,#ffffff_0%,#f7f6f2_100%)] shadow-[0_18px_50px_rgba(17,17,17,0.05)]"
+                  ? "border-ink/10 bg-ink text-white shadow-[0_24px_70px_rgba(17,17,17,0.16)] hover:shadow-[0_30px_80px_rgba(17,17,17,0.2)] sm:col-span-2 lg:col-span-1"
+                  : "border-ink/10 bg-[linear-gradient(180deg,#ffffff_0%,#f7f6f2_100%)] shadow-[0_18px_50px_rgba(17,17,17,0.05)] hover:shadow-[0_24px_70px_rgba(17,17,17,0.1)]"
               }`}
             >
               <div

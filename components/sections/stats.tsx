@@ -32,7 +32,7 @@ export function Stats() {
           {stats.map((stat) => (
             <article
               key={stat.value}
-              className="rounded-lg border border-white/12 bg-white/[0.07] p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur sm:p-7 lg:p-8"
+              className="rounded-lg border border-white/12 bg-white/[0.07] p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur transition-all duration-300 ease-out hover:-translate-y-1 hover:border-white/20 hover:bg-white/[0.09] hover:shadow-[0_24px_70px_rgba(0,0,0,0.18),inset_0_1px_0_rgba(255,255,255,0.1)] sm:p-7 lg:p-8"
             >
               <p className="text-5xl font-semibold leading-none sm:text-6xl lg:text-7xl">
                 {stat.value}

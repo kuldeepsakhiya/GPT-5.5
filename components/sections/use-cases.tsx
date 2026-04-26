@@ -46,7 +46,7 @@ export function UseCases() {
             {audiences.map((audience) => (
               <article
                 key={audience.title}
-                className="group rounded-lg border border-ink/10 bg-white/78 p-6 shadow-[0_20px_60px_rgba(17,17,17,0.07)] backdrop-blur transition hover:-translate-y-1 hover:border-copper/25 hover:bg-white sm:p-7"
+                className="group rounded-lg border border-ink/10 bg-white/78 p-6 shadow-[0_20px_60px_rgba(17,17,17,0.07)] backdrop-blur transition-all duration-300 ease-out hover:-translate-y-1 hover:border-copper/25 hover:bg-white hover:shadow-[0_26px_74px_rgba(17,17,17,0.12)] sm:p-7"
               >
                 <div className="mb-8 flex items-center justify-between gap-4">
                   <div className="h-px w-12 bg-copper/40 transition group-hover:w-20" />
