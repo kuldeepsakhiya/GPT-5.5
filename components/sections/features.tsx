@@ -42,34 +42,52 @@ const features = [
 
 export function Features() {
   return (
-    <section id="features" className="scroll-mt-28 bg-white py-16 sm:py-24 lg:py-28">
+    <section id="features" className="scroll-mt-28 bg-white py-18 sm:py-24 lg:py-32">
       <Container>
-        <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase leading-5 text-ocean">
-            Core strengths
-          </p>
-          <h2 className="mt-4 text-3xl font-semibold leading-tight text-ink sm:text-4xl lg:text-5xl">
-            Built for the messy middle of real work.
-          </h2>
-          <p className="mt-5 text-base leading-7 text-ink/62 sm:text-lg sm:leading-8">
+        <div className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr] lg:items-end">
+          <div>
+            <p className="text-sm font-semibold uppercase leading-5 text-ocean">
+              Core strengths
+            </p>
+            <h2 className="mt-4 max-w-2xl text-4xl font-semibold leading-[1.05] text-ink sm:text-5xl lg:text-6xl">
+              Built for the messy middle of real work.
+            </h2>
+          </div>
+          <p className="max-w-2xl text-base leading-7 text-ink/58 sm:text-lg sm:leading-8 lg:justify-self-end">
             GPT-5.5 is designed for tasks where context, judgment, and reliable
             execution matter as much as raw generation.
           </p>
         </div>
 
-        <div className="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-6">
-          {features.map((feature) => (
+        <div className="mt-12 grid gap-4 sm:mt-14 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-6">
+          {features.map((feature, index) => (
             <article
               key={feature.title}
-              className="rounded-lg border border-ink/10 bg-paper/65 p-6 transition hover:border-ocean/30 hover:bg-white sm:p-7"
+              className={`rounded-lg border p-6 transition hover:-translate-y-1 hover:border-ocean/30 sm:p-7 ${
+                index === 0
+                  ? "border-ink/10 bg-ink text-white shadow-[0_24px_70px_rgba(17,17,17,0.16)] sm:col-span-2 lg:col-span-1"
+                  : "border-ink/10 bg-[linear-gradient(180deg,#ffffff_0%,#f7f6f2_100%)] shadow-[0_18px_50px_rgba(17,17,17,0.05)]"
+              }`}
             >
-              <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-ink text-white sm:mb-6">
+              <div
+                className={`mb-5 inline-flex h-12 w-12 items-center justify-center rounded-lg sm:mb-6 ${
+                  index === 0 ? "bg-white text-ink" : "bg-ink text-white"
+                }`}
+              >
                 <FeatureIcon name={feature.icon} />
               </div>
-              <h3 className="text-xl font-semibold leading-snug text-ink">
+              <h3
+                className={`text-xl font-semibold leading-snug ${
+                  index === 0 ? "text-white" : "text-ink"
+                }`}
+              >
                 {feature.title}
               </h3>
-              <p className="mt-3 text-base leading-7 text-ink/62">
+              <p
+                className={`mt-3 text-base leading-7 ${
+                  index === 0 ? "text-white/68" : "text-ink/60"
+                }`}
+              >
                 {feature.description}
               </p>
             </article>

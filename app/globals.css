@@ -22,9 +22,37 @@ body {
   min-height: 100vh;
   background: #f7f6f2;
   color: #111111;
+  font-feature-settings:
+    "ss01" on,
+    "cv01" on,
+    "cv11" on;
 }
 
 ::selection {
   background: #c7ded8;
   color: #111111;
+}
+
+@keyframes gradient-drift {
+  0% {
+    transform: translate3d(-2%, -2%, 0) scale(1);
+  }
+
+  50% {
+    transform: translate3d(2%, 1%, 0) scale(1.04);
+  }
+
+  100% {
+    transform: translate3d(-2%, -2%, 0) scale(1);
+  }
+}
+
+.animated-gradient {
+  animation: gradient-drift 18s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animated-gradient {
+    animation: none;
+  }
 }

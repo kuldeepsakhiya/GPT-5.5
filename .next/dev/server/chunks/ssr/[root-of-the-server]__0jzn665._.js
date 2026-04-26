@@ -66,20 +66,34 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$containe
 function Cta() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "cta",
-        className: "scroll-mt-28 bg-paper py-16 sm:py-24 lg:py-28",
+        className: "scroll-mt-28 bg-paper py-18 sm:py-24 lg:py-32",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "rounded-lg bg-[linear-gradient(135deg,#111111_0%,#1d6f86_58%,#6f7d58_100%)] px-6 py-12 text-white sm:px-10 sm:py-14 lg:px-14 lg:py-16",
+                className: "relative isolate overflow-hidden rounded-lg bg-[linear-gradient(135deg,#111111_0%,#17434a_55%,#6f7d58_100%)] px-6 py-12 text-white shadow-[0_28px_90px_rgba(17,17,17,0.18)] sm:px-10 sm:py-16 lg:px-16 lg:py-20",
                 children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute inset-x-8 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-white/45 to-transparent"
+                    }, void 0, false, {
+                        fileName: "[project]/components/sections/cta.tsx",
+                        lineNumber: 9,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute -right-20 -top-20 -z-10 h-64 w-64 rounded-full bg-white/10 blur-3xl"
+                    }, void 0, false, {
+                        fileName: "[project]/components/sections/cta.tsx",
+                        lineNumber: 10,
+                        columnNumber: 11
+                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "max-w-3xl",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-3xl font-semibold leading-tight sm:text-4xl lg:text-5xl",
+                                className: "text-4xl font-semibold leading-[1.06] sm:text-5xl lg:text-6xl",
                                 children: "Start building with GPT-5.5"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/cta.tsx",
-                                lineNumber: 10,
+                                lineNumber: 12,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -87,13 +101,13 @@ function Cta() {
                                 children: "Bring stronger reasoning, planning, and tool use into the products and workflows your team already relies on."
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/cta.tsx",
-                                lineNumber: 13,
+                                lineNumber: 15,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/cta.tsx",
-                        lineNumber: 9,
+                        lineNumber: 11,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -105,7 +119,7 @@ function Cta() {
                                 children: "Get Started"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/cta.tsx",
-                                lineNumber: 19,
+                                lineNumber: 21,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2d$link$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ButtonLink"], {
@@ -115,13 +129,13 @@ function Cta() {
                                 children: "Learn more"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/cta.tsx",
-                                lineNumber: 22,
+                                lineNumber: 24,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/cta.tsx",
-                        lineNumber: 18,
+                        lineNumber: 20,
                         columnNumber: 11
                     }, this)
                 ]
@@ -439,34 +453,42 @@ const features = [
 function Features() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "features",
-        className: "scroll-mt-28 bg-white py-16 sm:py-24 lg:py-28",
+        className: "scroll-mt-28 bg-white py-18 sm:py-24 lg:py-32",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-3xl",
+                    className: "grid gap-6 lg:grid-cols-[0.85fr_1.15fr] lg:items-end",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-sm font-semibold uppercase leading-5 text-ocean",
-                            children: "Core strengths"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-sm font-semibold uppercase leading-5 text-ocean",
+                                    children: "Core strengths"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/sections/features.tsx",
+                                    lineNumber: 49,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "mt-4 max-w-2xl text-4xl font-semibold leading-[1.05] text-ink sm:text-5xl lg:text-6xl",
+                                    children: "Built for the messy middle of real work."
+                                }, void 0, false, {
+                                    fileName: "[project]/components/sections/features.tsx",
+                                    lineNumber: 52,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/sections/features.tsx",
                             lineNumber: 48,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "mt-4 text-3xl font-semibold leading-tight text-ink sm:text-4xl lg:text-5xl",
-                            children: "Built for the messy middle of real work."
-                        }, void 0, false, {
-                            fileName: "[project]/components/sections/features.tsx",
-                            lineNumber: 51,
-                            columnNumber: 11
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-5 text-base leading-7 text-ink/62 sm:text-lg sm:leading-8",
+                            className: "max-w-2xl text-base leading-7 text-ink/58 sm:text-lg sm:leading-8 lg:justify-self-end",
                             children: "GPT-5.5 is designed for tasks where context, judgment, and reliable execution matter as much as raw generation."
                         }, void 0, false, {
                             fileName: "[project]/components/sections/features.tsx",
-                            lineNumber: 54,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this)
                     ]
@@ -476,49 +498,49 @@ function Features() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-6",
-                    children: features.map((feature)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                            className: "rounded-lg border border-ink/10 bg-paper/65 p-6 transition hover:border-ocean/30 hover:bg-white sm:p-7",
+                    className: "mt-12 grid gap-4 sm:mt-14 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-6",
+                    children: features.map((feature, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
+                            className: `rounded-lg border p-6 transition hover:-translate-y-1 hover:border-ocean/30 sm:p-7 ${index === 0 ? "border-ink/10 bg-ink text-white shadow-[0_24px_70px_rgba(17,17,17,0.16)] sm:col-span-2 lg:col-span-1" : "border-ink/10 bg-[linear-gradient(180deg,#ffffff_0%,#f7f6f2_100%)] shadow-[0_18px_50px_rgba(17,17,17,0.05)]"}`,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mb-5 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-ink text-white sm:mb-6",
+                                    className: `mb-5 inline-flex h-12 w-12 items-center justify-center rounded-lg sm:mb-6 ${index === 0 ? "bg-white text-ink" : "bg-ink text-white"}`,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$icons$2f$feature$2d$icon$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FeatureIcon"], {
                                         name: feature.icon
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/features.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 77,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/features.tsx",
-                                    lineNumber: 66,
+                                    lineNumber: 72,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-xl font-semibold leading-snug text-ink",
+                                    className: `text-xl font-semibold leading-snug ${index === 0 ? "text-white" : "text-ink"}`,
                                     children: feature.title
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/features.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 79,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-3 text-base leading-7 text-ink/62",
+                                    className: `mt-3 text-base leading-7 ${index === 0 ? "text-white/68" : "text-ink/60"}`,
                                     children: feature.description
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/features.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 86,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, feature.title, true, {
                             fileName: "[project]/components/sections/features.tsx",
-                            lineNumber: 62,
+                            lineNumber: 64,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/sections/features.tsx",
-                    lineNumber: 60,
+                    lineNumber: 62,
                     columnNumber: 9
                 }, this)
             ]
@@ -792,103 +814,157 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$containe
 ;
 function Hero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative overflow-hidden bg-[linear-gradient(135deg,#f7f6f2_0%,#ffffff_42%,#dfeae4_100%)]",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
-            className: "grid min-h-[92vh] items-center gap-10 py-14 sm:gap-12 sm:py-16 md:grid-cols-[1.05fr_0.95fr] md:py-20 lg:gap-16 lg:py-24",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-3xl",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mb-5 inline-flex max-w-full rounded-full border border-ink/10 bg-white/65 px-4 py-2 text-sm font-medium leading-5 text-ink/70 sm:mb-6",
-                            children: "New frontier model for teams and builders"
-                        }, void 0, false, {
-                            fileName: "[project]/components/sections/hero.tsx",
-                            lineNumber: 10,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "max-w-4xl text-5xl font-semibold leading-[1.02] text-ink sm:text-6xl md:text-7xl lg:text-8xl",
-                            children: "Introducing GPT-5.5"
-                        }, void 0, false, {
-                            fileName: "[project]/components/sections/hero.tsx",
-                            lineNumber: 13,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-6 max-w-2xl text-2xl leading-snug text-ink/78 sm:text-3xl sm:leading-tight lg:text-4xl",
-                            children: "A new class of intelligence for real-world work"
-                        }, void 0, false, {
-                            fileName: "[project]/components/sections/hero.tsx",
-                            lineNumber: 16,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-5 max-w-2xl text-base leading-7 text-ink/65 sm:mt-6 sm:text-lg sm:leading-8",
-                            children: "GPT-5.5 helps teams move from intent to execution across coding, research, analysis, automation, and high-leverage productivity work."
-                        }, void 0, false, {
-                            fileName: "[project]/components/sections/hero.tsx",
-                            lineNumber: 19,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2d$link$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ButtonLink"], {
-                                    href: "#cta",
-                                    children: "Get Started"
+        className: "relative isolate overflow-hidden bg-[linear-gradient(135deg,#f7f6f2_0%,#ffffff_46%,#e4ece5_100%)]",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "animated-gradient absolute -inset-24 -z-20 bg-[radial-gradient(circle_at_18%_24%,rgba(176,93,53,0.16),transparent_28%),radial-gradient(circle_at_78%_18%,rgba(29,111,134,0.22),transparent_32%),radial-gradient(circle_at_62%_76%,rgba(111,125,88,0.18),transparent_30%)] blur-2xl"
+            }, void 0, false, {
+                fileName: "[project]/components/sections/hero.tsx",
+                lineNumber: 8,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(247,246,242,0.72)_0%,rgba(255,255,255,0.78)_48%,rgba(247,246,242,0.88)_100%)]"
+            }, void 0, false, {
+                fileName: "[project]/components/sections/hero.tsx",
+                lineNumber: 9,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-x-0 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-ink/20 to-transparent"
+            }, void 0, false, {
+                fileName: "[project]/components/sections/hero.tsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
+                className: "grid min-h-[92vh] items-center gap-12 py-16 sm:gap-14 sm:py-18 md:grid-cols-[1.02fr_0.98fr] md:py-22 lg:gap-20 lg:py-28",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "max-w-3xl",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "mb-5 inline-flex max-w-full rounded-full border border-ink/10 bg-white/75 px-4 py-2 text-sm font-medium leading-5 text-ink/70 shadow-[0_10px_35px_rgba(17,17,17,0.06)] backdrop-blur sm:mb-7",
+                                children: "New frontier model for teams and builders"
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/hero.tsx",
+                                lineNumber: 13,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                className: "max-w-4xl text-5xl font-semibold leading-[0.96] text-ink sm:text-6xl md:text-7xl lg:text-8xl",
+                                children: "Introducing GPT-5.5"
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/hero.tsx",
+                                lineNumber: 16,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "mt-7 max-w-2xl text-2xl font-medium leading-snug text-ink/82 sm:text-3xl sm:leading-tight lg:text-4xl",
+                                children: "A new class of intelligence for real-world work"
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/hero.tsx",
+                                lineNumber: 19,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "mt-5 max-w-2xl text-base leading-7 text-ink/62 sm:mt-6 sm:text-lg sm:leading-8",
+                                children: "GPT-5.5 helps teams move from intent to execution across coding, research, analysis, automation, and high-leverage productivity work."
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/hero.tsx",
+                                lineNumber: 22,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2d$link$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ButtonLink"], {
+                                        href: "#cta",
+                                        className: "shadow-[0_18px_45px_rgba(17,17,17,0.16)]",
+                                        children: "Get Started"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/hero.tsx",
+                                        lineNumber: 27,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2d$link$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ButtonLink"], {
+                                        href: "#features",
+                                        variant: "secondary",
+                                        children: "Explore capabilities"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/hero.tsx",
+                                        lineNumber: 33,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/sections/hero.tsx",
+                                lineNumber: 26,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/sections/hero.tsx",
+                        lineNumber: 12,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative mx-auto w-full max-w-[26rem] sm:max-w-xl md:max-w-none",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute inset-8 -z-10 rounded-lg bg-ocean/14 blur-3xl"
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/hero.tsx",
+                                lineNumber: 40,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute -left-5 top-10 hidden h-24 w-24 rounded-lg border border-white/80 bg-white/45 shadow-soft backdrop-blur sm:block"
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/hero.tsx",
+                                lineNumber: 41,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute -bottom-4 right-4 hidden h-28 w-44 rounded-lg border border-ink/10 bg-white/60 shadow-soft backdrop-blur sm:block"
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/hero.tsx",
+                                lineNumber: 42,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "rounded-lg border border-white/80 bg-white/35 p-2 shadow-[0_35px_90px_rgba(17,17,17,0.14)] backdrop-blur-md",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/product-visual.svg",
+                                    alt: "Abstract GPT-5.5 workspace interface showing reasoning, tools, and outputs",
+                                    width: 760,
+                                    height: 760,
+                                    priority: true,
+                                    className: "h-auto w-full rounded-lg"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/hero.tsx",
-                                    lineNumber: 24,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2d$link$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ButtonLink"], {
-                                    href: "#features",
-                                    variant: "secondary",
-                                    children: "Explore capabilities"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sections/hero.tsx",
-                                    lineNumber: 25,
+                                    lineNumber: 44,
                                     columnNumber: 13
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/sections/hero.tsx",
-                            lineNumber: 23,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/components/sections/hero.tsx",
-                    lineNumber: 9,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "relative mx-auto w-full max-w-[26rem] sm:max-w-xl md:max-w-none",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/product-visual.svg",
-                        alt: "Abstract GPT-5.5 workspace interface showing reasoning, tools, and outputs",
-                        width: 760,
-                        height: 760,
-                        priority: true,
-                        className: "h-auto w-full"
-                    }, void 0, false, {
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/hero.tsx",
+                                lineNumber: 43,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/components/sections/hero.tsx",
-                        lineNumber: 32,
-                        columnNumber: 11
+                        lineNumber: 39,
+                        columnNumber: 9
                     }, this)
-                }, void 0, false, {
-                    fileName: "[project]/components/sections/hero.tsx",
-                    lineNumber: 31,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/components/sections/hero.tsx",
-            lineNumber: 8,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/sections/hero.tsx",
+                lineNumber: 11,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/components/sections/hero.tsx",
         lineNumber: 7,
         columnNumber: 5
@@ -909,9 +985,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$containe
 function Narrative() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "reasoning",
-        className: "scroll-mt-28 bg-white py-16 sm:py-24 lg:py-28",
+        className: "scroll-mt-28 bg-[linear-gradient(180deg,#ffffff_0%,#f7f6f2_100%)] py-18 sm:py-24 lg:py-32",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
-            className: "grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-14",
+            className: "grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: [
@@ -924,7 +1000,7 @@ function Narrative() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "mt-4 text-3xl font-semibold leading-tight text-ink sm:text-4xl lg:text-5xl",
+                            className: "mt-4 text-4xl font-semibold leading-[1.06] text-ink sm:text-5xl lg:text-6xl",
                             children: "Reasoning that stays useful after the first answer."
                         }, void 0, false, {
                             fileName: "[project]/components/sections/narrative.tsx",
@@ -938,7 +1014,7 @@ function Narrative() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "space-y-6 text-base leading-7 text-ink/66 sm:space-y-7 sm:text-lg sm:leading-8",
+                    className: "border-l border-ink/12 pl-6 text-base leading-7 text-ink/66 sm:pl-8 sm:text-lg sm:leading-8",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: "GPT-5.5 improves on previous generations by treating complex work as a sequence of decisions, checks, and refinements. It can form a plan, inspect constraints, adapt as new information appears, and keep moving toward a finished outcome."
@@ -948,6 +1024,7 @@ function Narrative() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "mt-7",
                             children: "That makes it especially effective for real-world tasks: writing and reviewing code, comparing research, coordinating tools, drafting business artifacts, and helping teams turn ambiguous requests into polished deliverables."
                         }, void 0, false, {
                             fileName: "[project]/components/sections/narrative.tsx",
@@ -1006,10 +1083,10 @@ const navLinks = [
 ];
 function Navbar() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "sticky top-0 z-50 border-b border-ink/10 bg-paper/85 backdrop-blur-xl",
+        className: "sticky top-0 z-50 border-b border-ink/10 bg-paper/78 backdrop-blur-2xl",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
-                className: "flex min-h-16 items-center justify-between gap-4 py-3",
+                className: "flex min-h-16 items-center justify-between gap-4 py-3 lg:min-h-[4.5rem]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#",
@@ -1017,7 +1094,7 @@ function Navbar() {
                         "aria-label": "GPT-5.5 home",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "flex h-9 w-9 items-center justify-center rounded-lg bg-ink text-sm font-semibold leading-none text-white",
+                                className: "flex h-9 w-9 items-center justify-center rounded-lg bg-ink text-sm font-semibold leading-none text-white shadow-[0_10px_30px_rgba(17,17,17,0.16)]",
                                 children: "G"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/navbar.tsx",
@@ -1042,7 +1119,7 @@ function Navbar() {
                         className: "hidden items-center gap-1 md:flex",
                         children: navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: link.href,
-                                className: "rounded-lg px-3 py-2 text-sm font-medium leading-5 text-ink/66 transition hover:bg-white/70 hover:text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ocean",
+                                className: "rounded-lg px-3 py-2 text-sm font-medium leading-5 text-ink/58 transition hover:bg-white/70 hover:text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ocean",
                                 children: link.label
                             }, link.href, false, {
                                 fileName: "[project]/components/sections/navbar.tsx",
@@ -1077,12 +1154,12 @@ function Navbar() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "border-t border-ink/10 bg-paper/92 md:hidden",
+                className: "border-t border-ink/10 bg-paper/92 shadow-[0_16px_40px_rgba(17,17,17,0.05)] md:hidden",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
                     className: "flex gap-2 overflow-x-auto py-2",
                     children: navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                             href: link.href,
-                            className: "shrink-0 rounded-lg px-3 py-2 text-sm font-medium leading-5 text-ink/66 transition hover:bg-white/70 hover:text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ocean",
+                            className: "shrink-0 rounded-lg px-3 py-2 text-sm font-medium leading-5 text-ink/58 transition hover:bg-white/70 hover:text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ocean",
                             children: link.label
                         }, link.href, false, {
                             fileName: "[project]/components/sections/navbar.tsx",
@@ -1135,7 +1212,7 @@ const stats = [
 function Stats() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "benchmarks",
-        className: "scroll-mt-28 bg-ink py-14 text-white sm:py-18 lg:py-20",
+        className: "scroll-mt-28 bg-[linear-gradient(135deg,#111111_0%,#172222_52%,#1d6f86_100%)] py-16 text-white sm:py-20 lg:py-24",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1147,35 +1224,60 @@ function Stats() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mb-10 max-w-2xl sm:mb-12",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-sm font-semibold uppercase leading-5 text-white/56",
+                            children: "Measured progress"
+                        }, void 0, false, {
+                            fileName: "[project]/components/sections/stats.tsx",
+                            lineNumber: 24,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "mt-3 text-2xl font-medium leading-tight text-white sm:text-3xl",
+                            children: "Better results where long context, judgment, and execution meet."
+                        }, void 0, false, {
+                            fileName: "[project]/components/sections/stats.tsx",
+                            lineNumber: 27,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/sections/stats.tsx",
+                    lineNumber: 23,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid gap-4 sm:grid-cols-3 sm:gap-5 lg:gap-6",
                     children: stats.map((stat)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                            className: "rounded-lg border border-white/12 bg-white/[0.06] p-6 sm:p-7 lg:p-8",
+                            className: "rounded-lg border border-white/12 bg-white/[0.07] p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur sm:p-7 lg:p-8",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-4xl font-semibold leading-none sm:text-5xl lg:text-6xl",
+                                    className: "text-5xl font-semibold leading-none sm:text-6xl lg:text-7xl",
                                     children: stat.value
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/stats.tsx",
-                                    lineNumber: 29,
+                                    lineNumber: 37,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-4 max-w-xs text-sm leading-6 text-white/68 sm:mt-5 sm:text-base sm:leading-7",
+                                    className: "mt-5 max-w-xs text-sm leading-6 text-white/66 sm:text-base sm:leading-7",
                                     children: stat.label
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/stats.tsx",
-                                    lineNumber: 32,
+                                    lineNumber: 40,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, stat.value, true, {
                             fileName: "[project]/components/sections/stats.tsx",
-                            lineNumber: 25,
+                            lineNumber: 33,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/sections/stats.tsx",
-                    lineNumber: 23,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this)
             ]
@@ -1223,12 +1325,13 @@ const audiences = [
 function UseCases() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "use-cases",
-        className: "scroll-mt-28 bg-paper py-16 sm:py-24 lg:py-28",
+        className: "scroll-mt-28 border-y border-ink/10 bg-[linear-gradient(180deg,#f7f6f2_0%,#ece8dd_100%)] py-18 sm:py-24 lg:py-32",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start lg:gap-14",
+                className: "grid gap-12 lg:grid-cols-[0.78fr_1.22fr] lg:items-start lg:gap-16",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "lg:sticky lg:top-32",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-sm font-semibold uppercase leading-5 text-copper",
@@ -1239,7 +1342,7 @@ function UseCases() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "mt-4 text-3xl font-semibold leading-tight text-ink sm:text-4xl lg:text-5xl",
+                                className: "mt-4 text-4xl font-semibold leading-[1.06] text-ink sm:text-5xl lg:text-6xl",
                                 children: "One model, many kinds of momentum."
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/use-cases.tsx",
@@ -1255,14 +1358,21 @@ function UseCases() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid gap-4 sm:grid-cols-2 sm:gap-5 lg:gap-6",
                         children: audiences.map((audience)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                className: "rounded-lg border border-ink/10 bg-white p-6 shadow-soft sm:p-7",
+                                className: "group rounded-lg border border-ink/10 bg-white/78 p-6 shadow-[0_20px_60px_rgba(17,17,17,0.07)] backdrop-blur transition hover:-translate-y-1 hover:border-copper/25 hover:bg-white sm:p-7",
                                 children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mb-8 h-px w-12 bg-copper/40 transition group-hover:w-20"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/use-cases.tsx",
+                                        lineNumber: 46,
+                                        columnNumber: 17
+                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-xl font-semibold leading-snug text-ink sm:text-2xl",
                                         children: audience.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/use-cases.tsx",
-                                        lineNumber: 46,
+                                        lineNumber: 47,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1270,7 +1380,7 @@ function UseCases() {
                                         children: audience.description
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/use-cases.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 50,
                                         columnNumber: 17
                                     }, this)
                                 ]

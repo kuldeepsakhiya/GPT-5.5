@@ -17,19 +17,27 @@ const stats = [
 
 export function Stats() {
   return (
-    <section id="benchmarks" className="scroll-mt-28 bg-ink py-14 text-white sm:py-18 lg:py-20">
+    <section id="benchmarks" className="scroll-mt-28 bg-[linear-gradient(135deg,#111111_0%,#172222_52%,#1d6f86_100%)] py-16 text-white sm:py-20 lg:py-24">
       <Container>
         <h2 className="sr-only">GPT-5.5 benchmark results</h2>
+        <div className="mb-10 max-w-2xl sm:mb-12">
+          <p className="text-sm font-semibold uppercase leading-5 text-white/56">
+            Measured progress
+          </p>
+          <p className="mt-3 text-2xl font-medium leading-tight text-white sm:text-3xl">
+            Better results where long context, judgment, and execution meet.
+          </p>
+        </div>
         <div className="grid gap-4 sm:grid-cols-3 sm:gap-5 lg:gap-6">
           {stats.map((stat) => (
             <article
               key={stat.value}
-              className="rounded-lg border border-white/12 bg-white/[0.06] p-6 sm:p-7 lg:p-8"
+              className="rounded-lg border border-white/12 bg-white/[0.07] p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur sm:p-7 lg:p-8"
             >
-              <p className="text-4xl font-semibold leading-none sm:text-5xl lg:text-6xl">
+              <p className="text-5xl font-semibold leading-none sm:text-6xl lg:text-7xl">
                 {stat.value}
               </p>
-              <p className="mt-4 max-w-xs text-sm leading-6 text-white/68 sm:mt-5 sm:text-base sm:leading-7">
+              <p className="mt-5 max-w-xs text-sm leading-6 text-white/66 sm:text-base sm:leading-7">
                 {stat.label}
               </p>
             </article>
