@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #111111;
+  --color-paper: #f7f6f2;
+  --color-moss: #6f7d58;
+  --color-ocean: #1d6f86;
+  --color-copper: #b05d35;
+  --shadow-soft: 0 18px 60px rgba(17, 17, 17, 0.08);
+}
+
+:root {
+  color-scheme: light;
+  background: #f7f6f2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #f7f6f2;
+  color: #111111;
+}
+
+::selection {
+  background: #c7ded8;
+  color: #111111;
+}
