@@ -225,7 +225,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function ButtonLink({ children, className = "", variant = "primary", ...props }) {
     const variants = {
-        primary: "bg-ink text-white hover:bg-ocean focus-visible:outline-ink",
+        primary: "bg-ink text-white hover:bg-ocean data-[theme=light]:bg-white data-[theme=light]:text-black",
         secondary: "border border-ink/15 bg-white/70 text-ink hover:border-ocean/50 hover:text-ocean focus-visible:outline-ocean"
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -280,20 +280,20 @@ function Cta() {
         className: "scroll-mt-28 bg-paper py-18 sm:py-24 lg:py-32",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative isolate overflow-hidden rounded-lg bg-[linear-gradient(135deg,#111111_0%,#17434a_55%,#6f7d58_100%)] px-6 py-12 text-white shadow-[0_28px_90px_rgba(17,17,17,0.18)] sm:px-10 sm:py-16 lg:px-16 lg:py-20",
+                className: "relative isolate overflow-hidden rounded-lg bg-[linear-gradient(135deg,#0f172a_0%,#1e293b_50%,#334155_100%)] px-6 py-12 text-white shadow-[0_28px_90px_rgba(0,0,0,0.25)] sm:px-10 sm:py-16 lg:px-16 lg:py-20",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-x-8 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-white/45 to-transparent"
+                        className: "absolute inset-x-8 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/cta.tsx",
-                        lineNumber: 10,
+                        lineNumber: 12,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute -right-20 -top-20 -z-10 h-64 w-64 rounded-full bg-white/10 blur-3xl"
+                        className: "absolute -right-20 -top-20 -z-10 h-64 w-64 rounded-full bg-indigo-500/20 blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/cta.tsx",
-                        lineNumber: 11,
+                        lineNumber: 15,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -301,24 +301,32 @@ function Cta() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-4xl font-semibold leading-[1.06] sm:text-5xl lg:text-6xl",
-                                children: "Start building with GPT-5.5"
+                                children: "Build faster. Ship smarter."
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/cta.tsx",
-                                lineNumber: 13,
+                                lineNumber: 19,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "mt-5 text-base leading-7 text-white/72 sm:text-lg sm:leading-8",
-                                children: "Bring stronger reasoning, planning, and tool use into the products and workflows your team already relies on."
+                                className: "mt-3 text-xl text-white/90",
+                                children: "Powered by GPT-5.5"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/cta.tsx",
-                                lineNumber: 16,
+                                lineNumber: 24,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "mt-5 text-base leading-7 text-white/70 sm:text-lg sm:leading-8",
+                                children: "Bring stronger reasoning, automation, and real-world intelligence into your workflows — without complexity."
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/cta.tsx",
+                                lineNumber: 29,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/cta.tsx",
-                        lineNumber: 12,
+                        lineNumber: 17,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -326,40 +334,48 @@ function Cta() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2d$link$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ButtonLink"], {
                                 href: "#",
-                                className: "bg-white text-ink hover:bg-paper",
+                                className: "!bg-white !text-black hover:!bg-gray-200 shadow-md",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "Get Started"
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/cta.tsx",
-                                        lineNumber: 23,
+                                        lineNumber: 42,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$icons$2f$site$2d$icons$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ArrowRightIcon"], {}, void 0, false, {
                                         fileName: "[project]/components/sections/cta.tsx",
-                                        lineNumber: 24,
+                                        lineNumber: 43,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/sections/cta.tsx",
-                                lineNumber: 22,
+                                lineNumber: 39,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2d$link$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ButtonLink"], {
                                 href: "#features",
                                 variant: "secondary",
-                                className: "border-white/25 bg-white/10 text-white hover:border-white/60 hover:text-white",
-                                children: "Learn more"
+                                className: "!border-white/30 !bg-white/10 !text-white hover:!bg-white/20",
+                                children: "Explore Features"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/cta.tsx",
-                                lineNumber: 26,
+                                lineNumber: 47,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/cta.tsx",
-                        lineNumber: 21,
+                        lineNumber: 36,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "mt-6 text-sm text-white/50",
+                        children: "No setup required • Start instantly"
+                    }, void 0, false, {
+                        fileName: "[project]/components/sections/cta.tsx",
+                        lineNumber: 57,
                         columnNumber: 11
                     }, this)
                 ]
@@ -732,12 +748,12 @@ function Features() {
                                         name: feature.icon
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/features.tsx",
-                                        lineNumber: 77,
+                                        lineNumber: 75,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/features.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 71,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -745,7 +761,7 @@ function Features() {
                                     children: feature.title
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/features.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 77,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -753,7 +769,7 @@ function Features() {
                                     children: feature.description
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/features.tsx",
-                                    lineNumber: 86,
+                                    lineNumber: 83,
                                     columnNumber: 15
                                 }, this)
                             ]

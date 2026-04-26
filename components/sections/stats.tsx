@@ -1,31 +1,31 @@
 const stats = [
-    {
-      value: "95%",
-      label: "Accuracy",
-      desc: "High precision across coding, reasoning, and real-world tasks",
-    },
-    {
-      value: "2x",
-      label: "Faster Workflows",
-      desc: "Accelerate development and research with intelligent automation",
-    },
-    {
-      value: "10k+",
-      label: "Tasks Completed",
-      desc: "Successfully handling complex multi-step processes daily",
-    },
-    {
-      value: "99.9%",
-      label: "Reliability",
-      desc: "Consistent performance across diverse use cases",
-    },
-  ];
+  {
+    value: "95%",
+    label: "Accuracy",
+    desc: "High precision across coding, reasoning, and real-world tasks",
+  },
+  {
+    value: "2x",
+    label: "Faster Workflows",
+    desc: "Accelerate development and research with intelligent automation",
+  },
+  {
+    value: "10k+",
+    label: "Tasks Completed",
+    desc: "Successfully handling complex multi-step processes daily",
+  },
+  {
+    value: "99.9%",
+    label: "Reliability",
+    desc: "Consistent performance across diverse use cases",
+  },
+];
 
 export function Stats() {
   return (
     <section className="bg-white py-24">
       <div className="max-w-6xl mx-auto px-6">
-        
+
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gray-900">

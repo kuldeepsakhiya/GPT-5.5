@@ -1,37 +1,37 @@
 import { UseCaseIcon } from "@/components/icons/site-icons";
 
 const useCases = [
-    {
-      icon: "developers",
-      title: "For Developers",
-      desc: "Write, debug, and optimize code faster with intelligent assistance across multiple languages and frameworks.",
-      points: ["Code generation", "Debugging support", "API integration"],
-    },
-    {
-      icon: "businesses",
-      title: "For Businesses",
-      desc: "Automate workflows, improve decision-making, and increase operational efficiency at scale.",
-      points: ["Process automation", "Data insights", "Customer support"],
-    },
-    {
-      icon: "researchers",
-      title: "For Researchers",
-      desc: "Analyze complex information, generate insights, and accelerate discovery with advanced reasoning.",
-      points: ["Data analysis", "Summarization", "Knowledge extraction"],
-    },
-    {
-      icon: "productivity",
-      title: "For Productivity",
-      desc: "Handle daily tasks, planning, and documentation with smarter assistance that saves time.",
-      points: ["Task automation", "Content creation", "Workflow planning"],
-    },
+  {
+    icon: "developers",
+    title: "For Developers",
+    desc: "Write, debug, and optimize code faster with intelligent assistance across multiple languages and frameworks.",
+    points: ["Code generation", "Debugging support", "API integration"],
+  },
+  {
+    icon: "businesses",
+    title: "For Businesses",
+    desc: "Automate workflows, improve decision-making, and increase operational efficiency at scale.",
+    points: ["Process automation", "Data insights", "Customer support"],
+  },
+  {
+    icon: "researchers",
+    title: "For Researchers",
+    desc: "Analyze complex information, generate insights, and accelerate discovery with advanced reasoning.",
+    points: ["Data analysis", "Summarization", "Knowledge extraction"],
+  },
+  {
+    icon: "productivity",
+    title: "For Productivity",
+    desc: "Handle daily tasks, planning, and documentation with smarter assistance that saves time.",
+    points: ["Task automation", "Content creation", "Workflow planning"],
+  },
 ] as const;
 
 export function UseCases() {
   return (
     <section className="bg-gray-50 py-24">
       <div className="max-w-6xl mx-auto px-6">
-        
+
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gray-900">

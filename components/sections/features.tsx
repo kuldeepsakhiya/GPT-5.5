@@ -63,30 +63,26 @@ export function Features() {
           {features.map((feature, index) => (
             <article
               key={feature.title}
-              className={`rounded-lg border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:border-ocean/30 sm:p-7 ${
-                index === 0
+              className={`rounded-lg border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:border-ocean/30 sm:p-7 ${index === 0
                   ? "border-ink/10 bg-ink text-white shadow-[0_24px_70px_rgba(17,17,17,0.16)] hover:shadow-[0_30px_80px_rgba(17,17,17,0.2)] sm:col-span-2 lg:col-span-1"
                   : "border-ink/10 bg-[linear-gradient(180deg,#ffffff_0%,#f7f6f2_100%)] shadow-[0_18px_50px_rgba(17,17,17,0.05)] hover:shadow-[0_24px_70px_rgba(17,17,17,0.1)]"
-              }`}
+                }`}
             >
               <div
-                className={`mb-5 inline-flex h-12 w-12 items-center justify-center rounded-lg sm:mb-6 ${
-                  index === 0 ? "bg-white text-ink" : "bg-ink text-white"
-                }`}
+                className={`mb-5 inline-flex h-12 w-12 items-center justify-center rounded-lg sm:mb-6 ${index === 0 ? "bg-white text-ink" : "bg-ink text-white"
+                  }`}
               >
                 <FeatureIcon name={feature.icon} />
               </div>
               <h3
-                className={`text-xl font-semibold leading-snug ${
-                  index === 0 ? "text-white" : "text-ink"
-                }`}
+                className={`text-xl font-semibold leading-snug ${index === 0 ? "text-white" : "text-ink"
+                  }`}
               >
                 {feature.title}
               </h3>
               <p
-                className={`mt-3 text-base leading-7 ${
-                  index === 0 ? "text-white/68" : "text-ink/60"
-                }`}
+                className={`mt-3 text-base leading-7 ${index === 0 ? "text-white/68" : "text-ink/60"
+                  }`}
               >
                 {feature.description}
               </p>

@@ -13,7 +13,7 @@ export function ButtonLink({
 }: ButtonLinkProps) {
   const variants = {
     primary:
-      "bg-ink text-white hover:bg-ocean focus-visible:outline-ink",
+      "bg-ink text-white hover:bg-ocean data-[theme=light]:bg-white data-[theme=light]:text-black",
     secondary:
       "border border-ink/15 bg-white/70 text-ink hover:border-ocean/50 hover:text-ocean focus-visible:outline-ocean"
   };
