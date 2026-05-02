@@ -1,6 +1,14 @@
-type FeatureIconProps = {
+export type FeatureIconProps = {
   name: "code" | "research" | "workflow" | "speed" | "reasoning" | "tools";
 };
+
+export type FeatureIconName =
+  | "code"
+  | "research"
+  | "workflow"
+  | "speed"
+  | "reasoning"
+  | "tools";
 
 export function FeatureIcon({ name }: FeatureIconProps) {
   const common = "h-6 w-6";

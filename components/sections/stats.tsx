@@ -1,4 +1,12 @@
-const stats = [
+import { Container } from "@/components/ui/container";
+
+type Stat = {
+  value: string;
+  label: string;
+  desc: string;
+};
+
+const stats: Stat[] = [
   {
     value: "95%",
     label: "Accuracy",
@@ -23,47 +31,53 @@ const stats = [
 
 export function Stats() {
   return (
-    <section className="bg-white py-24">
-      <div className="max-w-6xl mx-auto px-6">
-
-        {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gray-900">
+    <section
+      className="bg-paper py-18 sm:py-24 lg:py-32"
+      aria-labelledby="stats-heading"
+    >
+      <Container>
+        {/* Header */}
+        <div className="text-center mb-14 sm:mb-16">
+          <h2
+            id="stats-heading"
+            className="text-3xl font-semibold tracking-tight text-ink sm:text-4xl md:text-5xl"
+          >
             Built for performance at scale
           </h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+
+          <p className="mt-4 max-w-2xl mx-auto text-base text-ink/60 sm:text-lg">
             GPT-5.5 delivers measurable improvements in speed, accuracy, and reliability.
           </p>
         </div>
 
         {/* Stats Grid */}
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
-          {stats.map((stat, index) => (
+        <div className="grid gap-10 sm:gap-12 md:grid-cols-2 lg:grid-cols-4">
+          {stats.map((stat) => (
             <div
-              key={index}
-              className="text-center group"
+              key={stat.label}
+              className="group text-center"
             >
-              {/* Big Number */}
-              <div className="text-4xl md:text-5xl font-bold text-gray-900">
+              {/* Value */}
+              <div className="text-4xl font-semibold text-ink sm:text-5xl">
                 {stat.value}
               </div>
 
               {/* Label */}
-              <div className="mt-2 text-lg font-semibold text-gray-800">
+              <div className="mt-2 text-lg font-medium text-ink">
                 {stat.label}
               </div>
 
               {/* Description */}
-              <p className="mt-2 text-sm text-gray-600 max-w-xs mx-auto">
+              <p className="mt-2 text-sm text-ink/60 max-w-xs mx-auto">
                 {stat.desc}
               </p>
 
-              {/* Underline hover effect */}
-              <div className="mt-4 h-1 w-10 mx-auto bg-gray-300 group-hover:w-20 group-hover:bg-black transition-all duration-300" />
+              {/* Accent line */}
+              <div className="mt-4 h-[2px] w-10 mx-auto bg-ink/20 transition-all duration-300 group-hover:w-20 group-hover:bg-ocean" />
             </div>
           ))}
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

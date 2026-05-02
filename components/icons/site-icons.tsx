@@ -6,6 +6,12 @@ type UseCaseIconProps = IconProps & {
   name: "developers" | "businesses" | "researchers" | "productivity";
 };
 
+export type UseCaseIconName =
+  | "developers"
+  | "businesses"
+  | "researchers"
+  | "productivity";
+
 export function BrandMark({ className = "h-5 w-5" }: IconProps) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden="true">

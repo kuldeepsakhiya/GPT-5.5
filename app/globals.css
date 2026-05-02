@@ -1,38 +1,65 @@
 @import "tailwindcss";
 
+/* =========================
+   Theme Tokens
+========================= */
 @theme {
   --color-ink: #111111;
   --color-paper: #f7f6f2;
   --color-moss: #6f7d58;
   --color-ocean: #1d6f86;
   --color-copper: #b05d35;
+
   --shadow-soft: 0 18px 60px rgba(17, 17, 17, 0.08);
+}
+
+/* =========================
+   Base Reset
+========================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 :root {
   color-scheme: light;
-  background: #f7f6f2;
 }
 
+/* =========================
+   Document
+========================= */
 html {
   scroll-behavior: smooth;
 }
 
 body {
   min-height: 100vh;
-  background: #f7f6f2;
-  color: #111111;
+  margin: 0;
+
+  background: var(--color-paper);
+  color: var(--color-ink);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   font-feature-settings:
     "ss01" on,
     "cv01" on,
     "cv11" on;
 }
 
+/* =========================
+   Selection
+========================= */
 ::selection {
   background: #c7ded8;
-  color: #111111;
+  color: var(--color-ink);
 }
 
+/* =========================
+   Animations
+========================= */
 @keyframes gradient-drift {
   0% {
     transform: translate3d(-2%, -2%, 0) scale(1);
