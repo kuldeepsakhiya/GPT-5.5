@@ -32,6 +32,7 @@ const stats: Stat[] = [
 export function Stats() {
   return (
     <section
+      id="benchmarks"
       className="bg-paper py-18 sm:py-24 lg:py-32"
       aria-labelledby="stats-heading"
     >

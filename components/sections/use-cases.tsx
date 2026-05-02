@@ -39,6 +39,7 @@ const useCases: UseCase[] = [
 export function UseCases() {
   return (
     <section
+      id="use-cases"
       className="bg-paper py-18 sm:py-24 lg:py-32"
       aria-labelledby="use-cases-heading"
     >
