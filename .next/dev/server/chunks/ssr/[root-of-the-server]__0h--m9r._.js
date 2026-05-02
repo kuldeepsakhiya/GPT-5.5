@@ -878,10 +878,10 @@ const legalLinks = [
 ];
 function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "border-t border-ink/10 bg-white",
+        className: "relative border-t border-ink/10 bg-gradient-to-b from-white to-gray-50",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
-                className: "grid gap-10 py-12 sm:py-14 lg:grid-cols-[1.1fr_1.4fr] lg:gap-16",
+                className: "grid gap-12 py-14 sm:py-16 lg:grid-cols-[1.1fr_1.4fr] lg:gap-20",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "max-w-sm",
@@ -892,43 +892,52 @@ function Footer() {
                                 "aria-label": "GPT-5.5 home",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "flex h-9 w-9 items-center justify-center rounded-lg bg-ink text-white",
+                                        className: "flex h-10 w-10 items-center justify-center rounded-xl bg-ink text-white shadow-sm",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$icons$2f$site$2d$icons$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BrandMark"], {}, void 0, false, {
                                             fileName: "[project]/components/sections/footer.tsx",
-                                            lineNumber: 48,
-                                            columnNumber: 15
+                                            lineNumber: 51,
+                                            columnNumber: 13
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/footer.tsx",
-                                        lineNumber: 47,
-                                        columnNumber: 13
+                                        lineNumber: 50,
+                                        columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-lg tracking-tight",
                                         children: "GPT-5.5"
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/footer.tsx",
-                                        lineNumber: 50,
-                                        columnNumber: 13
+                                        lineNumber: 53,
+                                        columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/sections/footer.tsx",
-                                lineNumber: 42,
-                                columnNumber: 11
+                                lineNumber: 45,
+                                columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "mt-5 text-sm leading-6 text-ink/58",
+                                className: "mt-5 text-sm leading-relaxed text-ink/60",
                                 children: "A new class of intelligence for coding, research, automation, and real-world productivity."
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/footer.tsx",
-                                lineNumber: 52,
-                                columnNumber: 11
+                                lineNumber: 56,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "mt-4 text-xs text-ink/40",
+                                children: "Built for developers, teams, and businesses worldwide"
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/footer.tsx",
+                                lineNumber: 62,
+                                columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/footer.tsx",
-                        lineNumber: 41,
-                        columnNumber: 9
+                        lineNumber: 44,
+                        columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                         "aria-label": "Footer navigation",
@@ -936,69 +945,79 @@ function Footer() {
                         children: footerSections.map((section)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-sm font-semibold leading-6 text-ink",
+                                        className: "text-sm font-semibold tracking-wide text-ink",
                                         children: section.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/footer.tsx",
-                                        lineNumber: 64,
-                                        columnNumber: 15
+                                        lineNumber: 75,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                        className: "mt-3 space-y-3 text-sm leading-6 text-ink/62",
+                                        className: "mt-4 space-y-3 text-sm text-ink/60",
                                         children: section.links.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    className: "transition hover:text-ocean",
+                                                    className: "group inline-flex items-center transition hover:text-ocean",
                                                     href: link.href,
-                                                    children: link.label
-                                                }, void 0, false, {
+                                                    children: [
+                                                        link.label,
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "ml-1 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition",
+                                                            children: "→"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/sections/footer.tsx",
+                                                            lineNumber: 89,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/components/sections/footer.tsx",
-                                                    lineNumber: 70,
-                                                    columnNumber: 21
+                                                    lineNumber: 82,
+                                                    columnNumber: 19
                                                 }, this)
                                             }, link.label, false, {
                                                 fileName: "[project]/components/sections/footer.tsx",
-                                                lineNumber: 69,
-                                                columnNumber: 19
+                                                lineNumber: 81,
+                                                columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/footer.tsx",
-                                        lineNumber: 67,
-                                        columnNumber: 15
+                                        lineNumber: 79,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, section.title, true, {
                                 fileName: "[project]/components/sections/footer.tsx",
-                                lineNumber: 63,
-                                columnNumber: 13
+                                lineNumber: 73,
+                                columnNumber: 11
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/sections/footer.tsx",
-                        lineNumber: 58,
-                        columnNumber: 9
+                        lineNumber: 68,
+                        columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/footer.tsx",
-                lineNumber: 40,
-                columnNumber: 7
+                lineNumber: 41,
+                columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "border-t border-ink/10",
+                className: "border-t border-ink/10 bg-white/70 backdrop-blur",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
                     className: "flex flex-col gap-4 py-6 sm:flex-row sm:items-center sm:justify-between",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-sm leading-6 text-ink/58",
+                            className: "text-sm text-ink/50",
                             children: "© 2026 GPT-5.5. All rights reserved."
                         }, void 0, false, {
                             fileName: "[project]/components/sections/footer.tsx",
-                            lineNumber: 83,
-                            columnNumber: 11
+                            lineNumber: 105,
+                            columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                             "aria-label": "Legal navigation",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                className: "flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium leading-6 text-ink/62",
+                                className: "flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium text-ink/60",
                                 children: legalLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             className: "transition hover:text-ocean",
@@ -1006,40 +1025,40 @@ function Footer() {
                                             children: link.label
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/footer.tsx",
-                                            lineNumber: 90,
-                                            columnNumber: 19
+                                            lineNumber: 113,
+                                            columnNumber: 17
                                         }, this)
                                     }, link.label, false, {
                                         fileName: "[project]/components/sections/footer.tsx",
-                                        lineNumber: 89,
-                                        columnNumber: 17
+                                        lineNumber: 112,
+                                        columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/footer.tsx",
-                                lineNumber: 87,
-                                columnNumber: 13
+                                lineNumber: 110,
+                                columnNumber: 11
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/sections/footer.tsx",
-                            lineNumber: 86,
-                            columnNumber: 11
+                            lineNumber: 109,
+                            columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/footer.tsx",
-                    lineNumber: 82,
-                    columnNumber: 9
+                    lineNumber: 103,
+                    columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sections/footer.tsx",
-                lineNumber: 81,
-                columnNumber: 7
+                lineNumber: 102,
+                columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/footer.tsx",
         lineNumber: 39,
-        columnNumber: 5
+        columnNumber: 3
     }, this);
 }
 }),
